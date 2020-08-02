@@ -28,12 +28,11 @@ public class Employee2
 {
         public static final int IS_FULL_TIME=1;
         public static final int EMP_RATE_PER_HOUR=20;
-  public static void main(String args[])
-  {
+
         int empWage=0;
         int empHRS=0;
-     public void employee()
-     {
+        public void employee()
+        {
         int empcheck=(int)Math.floor(Math.random()*10)%2;
         if(empcheck==IS_FULL_TIME)
         {
@@ -41,12 +40,11 @@ public class Employee2
         empWage= EMP_RATE_PER_HOUR*empHRS;
         System.out.println("employee wage="+empWage);
         }
-        else
-        {
-          empHRS=0;
-          empWage= EMP_RATE_PER_HOUR*empHRS;
-          System.out.println("employee wage="+empWage);
         }
-     }
-  }
+       public static void main(String args[])
+       {
+        Employee2 emp =new Employee2();
+        emp.employee();
+       }
 }
+
