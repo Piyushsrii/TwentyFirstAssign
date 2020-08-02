@@ -91,3 +91,5 @@ public class Employee
 >>>>>>> uc3
 }
 
+###UserCase-4###
+Problem Statement------>Solving using Switch Case Statement
